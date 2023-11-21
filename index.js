@@ -21,6 +21,7 @@ app.post("/auth/login", (req, res) => {
   );
   res.json({
     success: true,
+    token,
   });
 });
 
